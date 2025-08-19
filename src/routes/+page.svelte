@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { getLenght } from "$lib/lenght.remote";
+  import { getLength } from "$lib/length.remote";
 
   const text = "a".repeat(1000);
-  const lenght = getLenght(text);
+  const length = getLength(text);
 </script>
 
 <h1>Hi hi~~~</h1>
 <p>{text}</p>
-<p>{lenght.current}</p>
+<p>{length.current}</p>

@@ -1,5 +1,5 @@
 import { prerender } from "$app/server";
 
-export const getLenght = prerender("unchecked", (text) => {
+export const getLength = prerender("unchecked", (text) => {
   return String(text).length;
 });
